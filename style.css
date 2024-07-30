@@ -1,18 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
-:root {
-    --night: #0b090a;
-    --eerie-black: #161a1d;
-    --blood-red: #660708;
-    --cornell-red: #a4161a;
-    --cornell-red-2: #ba181b;
-    --imperial-red: #e5383b;
-    --silver: #b1a7a6;
-    --timberwolf: #d3d3d3;
-    --white-smoke: #f5f3f4;
-    --white: #ffffff;
-}
-
 * {
     font-family: 'Poppins', sans-serif;
     margin: 0;
@@ -22,12 +9,12 @@
 }
 
 body {
-    background-color: var(--night);
-    color: var(--white-smoke);
+    background-color: #F9F7F7;
+    color: #112D4E;
 }
 
 header {
-    background-color: var(--blood-red);
+    background-color: #3F72AF;
     width: 100%;
     position: fixed;
     z-index: 999;
@@ -39,7 +26,7 @@ header {
 
 .logo {
     text-decoration: none;
-    color: var(--imperial-red);
+    color: #F9F7F7;
     text-transform: uppercase;
     font-weight: 700;
     font-size: 1.8em;
@@ -47,7 +34,7 @@ header {
 
 .navigation a {
     text-decoration: none;
-    color: var(--timberwolf);
+    color: #DBE2EF;
     font-size: 1.1em;
     font-weight: 500;
     padding-left: 30px;
@@ -55,7 +42,7 @@ header {
 }
 
 .navigation a:hover {
-    color: var(--silver);
+    color: #F9F7F7;
 }
 
 section {
@@ -67,8 +54,8 @@ section {
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background-color: var(--night);
-    padding-top: 50px; /* To avoid content hiding behind the fixed header */
+    background-color: #DBE2EF;
+    padding-top: 50px;
 }
 
 .main h2 {
@@ -78,7 +65,7 @@ section {
 
 .main h2 span {
     display: inline-block;
-    color: var(--imperial-red);
+    color: #3F72AF;
     font-size: 3em;
     font-weight: 600;
     margin-top: 10px;
@@ -93,8 +80,8 @@ section {
 }
 
 .main-button {
-    color: var(--white-smoke);
-    background-color: var(--cornell-red);
+    color: #F9F7F7;
+    background-color: #3F72AF;
     text-decoration: none;
     font-size: 1.1em;
     font-weight: 600;
@@ -108,24 +95,24 @@ section {
 }
 
 .main-button:hover {
-    background-color: var(--cornell-red-2);
+    background-color: #112D4E;
     transform: scale(1.05);
 }
 
 .social-icons a {
-    color: var(--imperial-red);
+    color: #3F72AF;
     font-size: 1.7em;
     padding-right: 30px;
     transition: color 0.3s ease;
 }
 
 .social-icons a:hover {
-    color: var(--silver);
+    color: #112D4E;
 }
 
 .title {
     text-align: center;
-    color: var(--imperial-red);
+    color: #3F72AF;
     font-size: 2.2em;
     font-weight: 800;
     margin-bottom: 30px;
@@ -139,8 +126,8 @@ section {
 }
 
 .card {
-    background-color: var(--eerie-black);
-    color: var(--timberwolf);
+    background-color: #DBE2EF;
+    color: #112D4E;
     width: 21.25em;
     box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
@@ -154,8 +141,8 @@ section {
 }
 
 .icon {
-    color: var(--imperial-red);
-    font-size: 4em; /* Adjusted for better appearance */
+    color: #3F72AF;
+    font-size: 4em;
     text-align: center;
 }
 
@@ -164,14 +151,14 @@ section {
 }
 
 .info h3 {
-    color: var(--imperial-red);
+    color: #3F72AF;
     font-size: 1.2em;
     font-weight: 800;
     margin: 10px 0;
 }
 
 .projects {
-    background-color: var(--blood-red);
+    background-color: #3F72AF;
 }
 
 .projects .content {
@@ -179,9 +166,9 @@ section {
 }
 
 .project-card {
-    background-color: var(--cornell-red-2);
-    border: 1px solid var(--cornell-red);
-    color: var(--white-smoke);
+    background-color: #112D4E;
+    border: 1px solid #3F72AF;
+    color: #F9F7F7;
     min-height: 14em;
     width: 23em;
     overflow: hidden;
@@ -209,7 +196,7 @@ section {
 
 .project-category {
     font-size: 0.8em;
-    color: var(--white-smoke);
+    color: #F9F7F7;
 }
 
 .project-title {
@@ -222,11 +209,11 @@ section {
 
 .more-details {
     text-decoration: none;
-    color: var(--imperial-red);
+    color: #3F72AF;
 }
 
 .more-details:hover {
-    color: var(--white);
+    color: #F9F7F7;
 }
 
 .contact .icon {
@@ -234,7 +221,7 @@ section {
 }
 
 .contact .info h3 {
-    color: var(--imperial-red);
+    color: #3F72AF;
 }
 
 .contact .info p {
@@ -242,8 +229,8 @@ section {
 }
 
 .footer {
-    background-color: var(--eerie-black);
-    color: var(--timberwolf);
+    background-color: #112D4E;
+    color: #DBE2EF;
     padding: 2em;
     display: flex;
     justify-content: space-between;
@@ -257,7 +244,7 @@ section {
 }
 
 .footer-title span {
-    color: var(--imperial-red);
+    color: #3F72AF;
 }
 
 .footer .social-icons a {
